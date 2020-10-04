@@ -14,4 +14,5 @@ The **Portmanteaugram** is a program that creates a portmanteau from your name a
 4. Finish using the program because that's all it is
 
 **How to Contribute**
+
 If you'd like to contribute to the program, feel free to make additions and improvements to any facet of the code that you like.
