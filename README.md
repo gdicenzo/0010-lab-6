@@ -5,9 +5,10 @@ Repo for CMPINF 0010 Lab 6
 - Garrett is in Lab B
 - Tianyi is in Lab C
 
-The **Portmanteaugram** is a program that creates a portmanteau from your name and another word of your choice. The portmanteau will include your name without the last syllable and the other word without the first syllable. It parses the inputs by identifying syllables by searching for vowels.
+The **Portmanteaugram** is a program that creates a basic portmanteau from your name and another word of your choice. The portmanteau will include your name without the last syllable and the other word without the first syllable. It parses the inputs by identifying syllables by searching for vowels.
 
 *Note: Because syllables are identified using vowels, a syllable wouldn't be parsed correctly if it ended in a consonant*
+Example: `Tianyi` + `apple` = `Tiaapple`, *not* `Tianapple`
 
 ## How to Use The Program
 1. Run **portmanteaugram.py** in your interpreter of choice
