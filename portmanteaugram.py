@@ -1,5 +1,14 @@
-name = input("Please enter your name: ")
-other = input("Please enter another word: ")
+def getalpha(prompt: str) -> str:
+    while True:
+        string = input(prompt)
+        if not string.isalpha():
+            print("Invalid input. Please only enter English letters.")
+        else:
+            break
+    return string
+
+name = getalpha("Please enter your name: ").lower()
+other = getalpha("Please enter another word: ").lower()
 
 vowels = ['a', 'e', 'i', 'o', 'u']
 port = ""
@@ -19,4 +28,4 @@ for i in range(1, len(other) - 1):
 if manteau == "":
     manteau = other
 
-print(port + manteau)
+print((port + manteau).capitalize())
